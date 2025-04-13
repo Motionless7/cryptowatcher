@@ -1,0 +1,19 @@
+.coin-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 16px;
+}
+
+.coin-card {
+  width: 250px;
+  text-align: center;
+}
+
+.coin-logo {
+  width: 64px;
+  height: 64px;
+  margin: auto;
+}
+
+/*# sourceMappingURL=coin-list.component.css.map */

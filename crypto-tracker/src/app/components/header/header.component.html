@@ -1,0 +1,9 @@
+<mat-toolbar color="primary">
+  <span>💰 Crypto Tracker</span>
+  <span class="spacer"></span>
+  <mat-form-field>
+    <input class="search-input" matInput placeholder="Search" [(ngModel)]="searchQuery" />
+  </mat-form-field>
+  <a mat-button routerLink="/">Coins</a>
+  <a mat-button routerLink="/about">About</a>
+</mat-toolbar>

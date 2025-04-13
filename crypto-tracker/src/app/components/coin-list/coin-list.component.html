@@ -1,0 +1,10 @@
+<div class="coin-list">
+  <app-coin-card *ngFor="let coin of coins" [coin]="coin" (addToWatchlist)="onAddToWatchlist($event)"></app-coin-card>
+</div>
+
+<div class="watchlist">
+  <h2>Követett Coinok</h2>
+  <ul>
+    <li *ngFor="let coin of watchlist">{{ coin.name }}</li>
+  </ul>
+</div>

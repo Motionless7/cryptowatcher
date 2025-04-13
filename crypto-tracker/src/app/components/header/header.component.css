@@ -1,0 +1,16 @@
+.spacer {
+  flex: 1 1 auto;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  margin-left: 1rem;
+}
+
+.search-input {
+  font-family: Open Sans, sans-serif;
+  line-height: 1rem;
+}
+
+/*# sourceMappingURL=header.component.css.map */
