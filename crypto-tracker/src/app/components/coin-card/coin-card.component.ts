@@ -12,7 +12,7 @@ import { MatCardModule } from '@angular/material/card';
   styleUrls: ['./coin-card.component.scss']
 })
 export class CoinCardComponent {
-  @Input() coin!: Coin; // A coin adat
+  @Input() coin!: Coin;
   @Output() addToWatchlist = new EventEmitter<Coin>();
 
   onAddToWatchlist() {
